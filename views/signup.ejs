@@ -1,0 +1,45 @@
+
+<%- include("partials/header"); -%>
+
+
+<div class="hero">
+    <div class="box">
+      <!-- Image container -->
+      <div class="left">
+        <img src="/img/Woman reading-rafiki (3).png" alt="" class="image-left">
+      </div>
+      <div class="right">
+        <div class="another">
+          <p>already a member ?</p>
+          <a href="/login">Log in</a>
+        </div>
+        <div class="form_s">
+          <h2 class="form-group">Sign Up</h2>
+          
+          <!-- Form starts -->
+          <form action="/signup" method="POST">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" placeholder="Enter Name" name="name">
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" placeholder="Enter email" name="email">
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control"  placeholder="Password" name="password">
+            </div>
+            <div class="form-group">
+              <button type="submit" class="bttn">Create account</button>
+            </div>
+          </form>  
+          <!-- Form ends -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+<%- include("partials/footer"); -%>
