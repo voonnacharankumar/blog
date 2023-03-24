@@ -7,6 +7,9 @@
 
 
 
+https://user-images.githubusercontent.com/89398145/227516321-d789fbdb-21cb-449c-b0b1-e049e42e7663.mp4
+
+
 
 
 
@@ -20,7 +23,6 @@
 
 ## Features 📋
 🔥 User Can add  a post
-🔥 Create new users information
 🔥 User can read all users posts
 
 
